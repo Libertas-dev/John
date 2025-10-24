@@ -127,7 +127,6 @@ ul {
 /* recent-posts */
 .recent-posts {
     background-color: #edf7fa;
-    padding-top: 7px;
     padding-bottom: 32px;
 }
 
@@ -138,7 +137,11 @@ ul {
 }
 
 .recent-posts-header h2 {
+    margin: 0;
+    margin-bottom: 22px;
+    margin-top: 27px;
     font-size: 22px;
+    font-weight: 400;
 }
 
 .view-all {
@@ -153,38 +156,33 @@ ul {
 
 .post-card {
     background-color: #fff;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 23px;
-    padding-right: 21px;
+    padding: 24px 23px 24px 23px;
     border-radius: 4px;
 }
 
 .post-card h3 {
     margin: 0;
-    margin-bottom: 12px;
+    margin-bottom: 21px;
     font-size: 26px;
     font-weight: 700;
 }
 
 .post-meta {
-    font-size: 18px;
     margin: 0;
-    margin-bottom: 11px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .post-meta span:first-child {
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .post-meta span:last-child {
-    margin-left: 15px;
-    color: #21243d;
+    margin-left: 20px;
 }
 
-/* Стилізуємо опис у картці */
 .post-card p:last-child {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 /* featured */
