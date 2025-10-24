@@ -1,0 +1,252 @@
+/* heebo-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/heebo-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/heebo-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-900 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/heebo-v28-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243d;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 858px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-date {
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 18px;
+    background-color: #142850;
+    color: #fff;
+}
+
+/* header */
+.header {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.header .menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.menu-item {
+    transition: color 1s ease-in-out;
+}
+
+.menu-item:hover {
+    color: #ff6464;
+}
+
+/* hero */
+.hero {
+    padding-top: 140px;
+    padding-bottom: 70px;
+}
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 506px;
+}
+
+.hero-text h1 {
+    font-size: 44px;
+    line-height: 60px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.hero-text a {
+    display: block;
+    width: max-content;
+    padding: 17px 20px;
+    border-radius: 2px;
+    background-color: #ff6464;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-text a:hover {
+    background-color: #00a8cc;
+    color: #21343d;
+}
+
+/* recent-posts */
+.recent-posts {
+    background-color: #edf7fa;
+    padding-top: 7px;
+    padding-bottom: 32px;
+}
+
+.recent-posts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent-posts-header h2 {
+    font-size: 22px;
+}
+
+.view-all {
+    color: #00a8cc;
+}
+
+.recent-posts-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.post-card {
+    background-color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 23px;
+    padding-right: 21px;
+    border-radius: 4px;
+}
+
+.post-card h3 {
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.post-meta {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 11px;
+}
+
+.post-meta span:first-child {
+    margin-right: 15px;
+}
+
+.post-meta span:last-child {
+    margin-left: 15px;
+    color: #21243d;
+}
+
+/* Стилізуємо опис у картці */
+.post-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* featured */
+.featured {
+    padding-block: 60px;
+}
+
+.featured h2 {
+    margin: 0 0 30px;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.featured article {
+    display: flex;
+    gap: 18px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.featured article:not(:last-child) {
+    margin-bottom: 31px;
+}
+
+.featured article:nth-child(2) {
+    padding-bottom: 15px;
+}
+
+.featured article:nth-child(3) {
+    padding-bottom: 35px;
+}
+
+.featured article:last-child {
+    padding-bottom: 32px;
+}
+
+.featured article h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.featured article p {
+    margin-bottom: 0px;
+    margin-top: 22px;
+}
+
+.featured article img {
+    display: block;
+}
+
+/* footer */
+.footer {
+    margin-top: 23px;
+    padding-bottom: 54px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.footer p {
+    margin: 26px 0 0;
+    text-align: center;
+}
